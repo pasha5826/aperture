@@ -199,3 +199,72 @@ section h1 {
     margin: auto;
     padding-top: 82px;
 }
+
+.page{
+    background: #000000;
+    padding-top:113px ;
+   padding-bottom: 108px;
+}
+
+.page_main{
+    margin: auto;
+    max-width: 600px;
+}
+
+.page_header{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.page_subtitle{
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+
+.more_main{
+    margin: auto;
+    max-width: 154px;
+    position: relative;
+
+}
+
+.more{
+
+    background: #FFFFFF;
+    border-radius: 14px;
+    text-decoration: none;
+    font-family: 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 9px 10px 13px 42px;
+}
+
+.more:before{
+    content: "";
+    display: inline-block;
+   background-image:url("../img/Frame.svg") ;
+    position: absolute;
+    Width: 32px;
+    Height: 32px;
+    Top: -4px;
+    Left: 5px;
+
+
+}
