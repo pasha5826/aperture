@@ -209,6 +209,7 @@ section h1 {
 .page_main{
     margin: auto;
     max-width: 600px;
+    text-align: center;
 }
 
 .page_header{
@@ -232,14 +233,6 @@ section h1 {
     color: #C0C0C0;
     margin-bottom: 22px;
 }
-
-.more_main{
-    margin: auto;
-    max-width: 154px;
-    position: relative;
-
-}
-
 .more{
 
     background: #FFFFFF;
@@ -254,6 +247,8 @@ section h1 {
     letter-spacing: 0.4px;
     color: #000000;
     padding: 9px 10px 13px 42px;
+    position: relative;
+
 }
 
 .more:before{
@@ -263,8 +258,7 @@ section h1 {
     position: absolute;
     Width: 32px;
     Height: 32px;
-    Top: -4px;
+    Top: 4px;
     Left: 5px;
-
 
 }
