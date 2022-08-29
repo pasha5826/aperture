@@ -194,19 +194,29 @@ section h1 {
     color: #C0C0C0;
 }
 .link{
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
      max-width: 1000px;
      margin: auto;
      padding-top: 82px;
     text-align: center;
+
 }
 
+.owl-carousel a{
+    display: flex;
+    align-content: center;
+    height: 78px;
+}
 
 .owl-carousel a img{
     max-width: 128px;
     margin: auto;
+
+
+
+
 }
 
 .owl-dots .owl-dot span{
