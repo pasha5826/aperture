@@ -204,18 +204,14 @@ section h1 {
 
 }
 
-.owl-carousel a{
+.owl-carousel .owl-stage{
     display: flex;
-    align-content: center;
-    height: 78px;
+    align-items: center;
 }
 
 .owl-carousel a img{
     max-width: 128px;
     margin: auto;
-
-
-
 
 }
 
